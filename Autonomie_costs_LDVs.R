@@ -22,7 +22,7 @@ library(xlsx)
 library(gcamdata)
 
 # Read in selected columns from Autonomie MHDT truck cost spreadsheet, for the "Low" case, 
-# only include powertrains that are included in GCAM and convert from 2023$ to 2005$, and rename categories
+# only include powertrains that are included in GCAM and convert to 2005$, and rename categories
 Auto_LDV <- fread("LDV_Autonomie.csv", select =  c("Model Years: {years}", 
                                                    "Vehicle Class: {string}", 
                                                    "Vehicle Powertrain: {string}", 
@@ -55,13 +55,12 @@ rename_with(~c("MY",
               "Adjusted Electricity Consumption, Combined 43/57 - real world, CD (Wh/mi)")) %>%
 # first rename columns
   filter(Progress == "Low") %>%
-  #filter(MY == "2025") %>%
   filter(Powertrain == "Conventional SI" | 
            Powertrain == "BEV300" | 
            Powertrain == "FCEV" | 
-           Powertrain == "Par HEV SI") %>%
+           Powertrain == "Par HEV SI") %>% # change to Split? 
   filter(Performance == "Base") %>%
-  mutate(MSRP = MSRP * 1.499252048) %>% # convert from 2023$ to 2005$
+  mutate(MSRP = MSRP * gdp_deflator(2005, 2021)) %>% # convert to 2005$
   mutate(Powertrain = case_when(
     Powertrain %in% c("Conventional SI") ~ "Liquids",
     Powertrain %in% c("BEV300") ~ "BEV",
@@ -90,11 +89,22 @@ Auto_LDV
 
 
 # To do: Create interpolation loop --------------------------------------------
-# st interpolation years 2020, 2040, 2045:
+# better: use approx.fun from gcamdata 
+# > approx_fun <- function(year, value, rule = 2) {
+#tryCatch(stats::approx(as.vector(year), value, rule = rule, xout = year, ties = mean)$y,
+#         error = function(e) NA)
+#}
+#
+#We'll use rule = 2 to write out the data to all model years (to 2100)
+ 
+
+# interpolation years 2020, 2040, 2045:
 interpol_years <- c("2020", "2040", "2045") %>%
   as.numeric
 
-# easier:
+
+
+# Everything below is just me trying out stuff and can probably deleted if it's not useful:
 #make new column that contains powertrain and class
 Auto_LDV <- Auto_LDV %>%
 mutate(Vehicle = paste(Powertrain, Class)) %>%
