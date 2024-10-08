@@ -30,7 +30,7 @@ Auto_LDV <- fread("LDV_Autonomie.csv", select =  c("Model Years: {years}",
                                                    "Vehicle Performance Category: {string}", 
                                                    "Vehicle Curb Weight: {Kg}", 
                                                    "Vehicle MSRP {2023$}", 
-                                                   "Levelized Cost of Driving - LCOD: {$/mile}", 
+                                                   #"Levelized Cost of Driving - LCOD: {$/mile}", 
                                                    "Adjusted Fuel Economy, Combined 43/57 - real world, CS, Fuel (Gas.Equivalent): {mile/gallon}", 
                                                    "Adjusted Electricity Consumption, Combined 43/57 - real world, CD (Wh/mi)")) %>%
 rename_with(~c("MY", 
@@ -40,7 +40,7 @@ rename_with(~c("MY",
                "Performance", 
                "Curb_weight_kg", 
                "MSRP", 
-               "LCOD_$/mile", 
+               #"LCOD_$/mile", 
                "Real-world_FE_mpgge", 
                "Real-world_elec_cons_Wh/mi"), 
             c("Model Years: {years}", 
@@ -50,7 +50,7 @@ rename_with(~c("MY",
               "Vehicle Performance Category: {string}", 
               "Vehicle Curb Weight: {Kg}", 
               "Vehicle MSRP {2023$}", 
-              "Levelized Cost of Driving - LCOD: {$/mile}", 
+              #"Levelized Cost of Driving - LCOD: {$/mile}", 
               "Adjusted Fuel Economy, Combined 43/57 - real world, CS, Fuel (Gas.Equivalent): {mile/gallon}", 
               "Adjusted Electricity Consumption, Combined 43/57 - real world, CD (Wh/mi)")) %>%
 # first rename columns
@@ -89,8 +89,8 @@ Auto_LDV <- Auto_LDV %>%
 Auto_LDV
 
 
-# Create interpolation loop ---------------------------------------------------
-# set interpolation years 2020, 2040, 2045:
+# To do: Create interpolation loop --------------------------------------------
+# st interpolation years 2020, 2040, 2045:
 interpol_years <- c("2020", "2040", "2045") %>%
   as.numeric
 
