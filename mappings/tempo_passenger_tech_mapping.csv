@@ -1,0 +1,185 @@
+Tempo_Mode,Tempo_Tech,Tempo_Class,Tempo_Fuel,Sector,Mode,Size.class,Technology,Fuel
+Air_Passenger,Air_Liquid,None,Bio_JetFuel,Passenger,Air,,Liquids,biofuels
+Air_Passenger,Air_Liquid,None,JetFuel,Passenger,Air,,Liquids,fossil liquids
+Air_Passenger,Air_Liquid,None,Other,Passenger,Air,,Liquids,fossil liquids
+Bus,BEV_300,None,Electricity_Commercial,Passenger,Road,Bus,BEV,electricity
+Bus,BEV_300,None,Electricity_DCFC,Passenger,Road,Bus,BEV,electricity
+Bus,BEV_300,None,Other,Passenger,Road,Bus,BEV,electricity
+Bus,FCEV,None,Hydrogen,Passenger,Road,Bus,FCEV,hydrogen
+Bus,FCEV,None,Other,Passenger,Road,Bus,FCEV,hydrogen
+Bus,HEV_Diesel,None,Bio_Diesel,Passenger,Road,Bus,Liquids,biofuels
+Bus,HEV_Diesel,None,Diesel,Passenger,Road,Bus,Liquids,fossil liquids
+Bus,HEV_Diesel,None,Other,Passenger,Road,Bus,Liquids,fossil liquids
+Bus,ICEV_Diesel,None,Bio_Diesel,Passenger,Road,Bus,Liquids,biofuels
+Bus,ICEV_Diesel,None,Diesel,Passenger,Road,Bus,Liquids,fossil liquids
+Bus,ICEV_Diesel,None,Other,Passenger,Road,Bus,Liquids,fossil liquids
+Bus,ICEV_NG,None,Natural_Gas,Passenger,Road,Bus,NG,natural gas
+Bus,ICEV_NG,None,Other,Passenger,Road,Bus,NG,natural gas
+LDV_Fleet,BEV_300,Compact,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+LDV_Fleet,BEV_300,Midsize,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+LDV_Fleet,BEV_300,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+LDV_Fleet,BEV_300,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+LDV_Fleet,FCEV,Compact,Electricity_Residential,Passenger,Road,Car,FCEV,hydrogen
+LDV_Fleet,FCEV,Midsize,Electricity_Residential,Passenger,Road,Car,FCEV,hydrogen
+LDV_Fleet,FCEV,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,FCEV,hydrogen
+LDV_Fleet,FCEV,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,FCEV,hydrogen
+LDV_Fleet,HEV_Gasoline,Compact,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+LDV_Fleet,HEV_Gasoline,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+LDV_Fleet,HEV_Gasoline,Pickup,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+LDV_Fleet,HEV_Gasoline,SUV,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+LDV_Fleet,ICEV_Gasoline,Compact,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+LDV_Fleet,ICEV_Gasoline,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+LDV_Fleet,ICEV_Gasoline,Pickup,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+LDV_Fleet,ICEV_Gasoline,SUV,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+LDV_Fleet,ICEV_NG,Compact,Natural_Gas,Passenger,Road,Car,NG,natural gas
+LDV_Fleet,ICEV_NG,Midsize,Natural_Gas,Passenger,Road,Car,NG,natural gas
+LDV_Fleet,ICEV_NG,Pickup,Natural_Gas,Passenger,Road,Large Car and Truck,NG,natural gas
+LDV_Fleet,ICEV_NG,SUV,Natural_Gas,Passenger,Road,Large Car and Truck,NG,natural gas
+LDV_Fleet,PHEV_50,Compact,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+LDV_Fleet,PHEV_50,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+LDV_Fleet,PHEV_50,Pickup,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+LDV_Fleet,PHEV_50,SUV,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+MaaS,BEV_300,Midsize,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+MaaS,BEV_300,Midsize,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+MaaS,BEV_300,Midsize,Other,Passenger,Road,Car,BEV,electricity
+MaaS,FCEV,Midsize,Hydrogen,Passenger,Road,Car,FCEV,hydrogen
+MaaS,FCEV,Midsize,Other,Passenger,Road,Car,FCEV,hydrogen
+MaaS,HEV_Gasoline,Midsize,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+MaaS,HEV_Gasoline,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+MaaS,HEV_Gasoline,Midsize,Other,Passenger,Road,Car,Liquids,fossil liquids
+MaaS,ICEV_Gasoline,Midsize,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+MaaS,ICEV_Gasoline,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+MaaS,ICEV_Gasoline,Midsize,Other,Passenger,Road,Car,Liquids,fossil liquids
+MaaS,ICEV_NG,Midsize,Natural_Gas,Passenger,Road,Car,NG,natural gas
+Motorcycle,ICEV_Gasoline,None,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+Motorcycle,ICEV_Gasoline,None,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+Motorcycle,ICEV_Gasoline,None,Other,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,BEV_200,Compact,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Compact,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Compact,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Compact,Other,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Midsize,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Midsize,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Midsize,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Midsize,Other,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_200,Pickup,Electricity_Commercial,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,Pickup,Electricity_DCFC,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,Pickup,Other,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,SUV,Electricity_Commercial,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,SUV,Electricity_DCFC,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_200,SUV,Other,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,Compact,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Compact,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Compact,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Compact,Other,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Midsize,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Midsize,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Midsize,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Midsize,Other,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_300,Pickup,Electricity_Commercial,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,Pickup,Electricity_DCFC,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,Pickup,Other,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,SUV,Electricity_Commercial,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,SUV,Electricity_DCFC,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_300,SUV,Other,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,Compact,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Compact,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Compact,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Compact,Other,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Midsize,Electricity_Commercial,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Midsize,Electricity_DCFC,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Midsize,Electricity_Residential,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Midsize,Other,Passenger,Road,Car,BEV,electricity
+Personal_LDV,BEV_400,Pickup,Electricity_Commercial,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,Pickup,Electricity_DCFC,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,Pickup,Other,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,SUV,Electricity_Commercial,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,SUV,Electricity_DCFC,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,BEV_400,SUV,Other,Passenger,Road,Large Car and Truck,BEV,electricity
+Personal_LDV,FCEV,Compact,Hydrogen,Passenger,Road,Car,FCEV,hydrogen
+Personal_LDV,FCEV,Midsize,Hydrogen,Passenger,Road,Car,FCEV,hydrogen
+Personal_LDV,FCEV,Pickup,Hydrogen,Passenger,Road,Large Car and Truck,FCEV,hydrogen
+Personal_LDV,FCEV,SUV,Hydrogen,Passenger,Road,Large Car and Truck,FCEV,hydrogen
+Personal_LDV,HEV_Gasoline,Compact,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+Personal_LDV,HEV_Gasoline,Compact,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,Compact,Other,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,Midsize,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+Personal_LDV,HEV_Gasoline,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,Midsize,Other,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,Pickup,Bio_Gasoline,Passenger,Road,Large Car and Truck,Liquids,biofuels
+Personal_LDV,HEV_Gasoline,Pickup,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,Pickup,Other,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,SUV,Bio_Gasoline,Passenger,Road,Large Car and Truck,Liquids,biofuels
+Personal_LDV,HEV_Gasoline,SUV,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,HEV_Gasoline,SUV,Other,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,Compact,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+Personal_LDV,ICEV_Gasoline,Compact,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,Compact,Other,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,Midsize,Bio_Gasoline,Passenger,Road,Car,Liquids,biofuels
+Personal_LDV,ICEV_Gasoline,Midsize,Gasoline,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,Midsize,Other,Passenger,Road,Car,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,Pickup,Bio_Gasoline,Passenger,Road,Large Car and Truck,Liquids,biofuels
+Personal_LDV,ICEV_Gasoline,Pickup,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,Pickup,Other,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,SUV,Bio_Gasoline,Passenger,Road,Large Car and Truck,Liquids,biofuels
+Personal_LDV,ICEV_Gasoline,SUV,Gasoline,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,ICEV_Gasoline,SUV,Other,Passenger,Road,Large Car and Truck,Liquids,fossil liquids
+Personal_LDV,ICEV_NG,Compact,Natural_Gas,Passenger,Road,Car,NG,natural gas
+Personal_LDV,ICEV_NG,Midsize,Natural_Gas,Passenger,Road,Car,NG,natural gas
+Personal_LDV,ICEV_NG,Pickup,Natural_Gas,Passenger,Road,Large Car and Truck,NG,natural gas
+Personal_LDV,ICEV_NG,SUV,Natural_Gas,Passenger,Road,Large Car and Truck,NG,natural gas
+Personal_LDV,PHEV_25,Compact,Bio_Gasoline,Passenger,Road,Car,PHEV,biofuels
+Personal_LDV,PHEV_25,Compact,Electricity_Commercial,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_25,Compact,Electricity_Residential,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_25,Compact,Gasoline,Passenger,Road,Car,PHEV,fossil liquids
+Personal_LDV,PHEV_25,Midsize,Bio_Gasoline,Passenger,Road,Car,PHEV,biofuels
+Personal_LDV,PHEV_25,Midsize,Electricity_Commercial,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_25,Midsize,Electricity_Residential,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_25,Midsize,Gasoline,Passenger,Road,Car,PHEV,fossil liquids
+Personal_LDV,PHEV_25,Pickup,Bio_Gasoline,Passenger,Road,Large Car and Truck,PHEV,biofuels
+Personal_LDV,PHEV_25,Pickup,Electricity_Commercial,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_25,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_25,Pickup,Gasoline,Passenger,Road,Large Car and Truck,PHEV,fossil liquids
+Personal_LDV,PHEV_25,SUV,Bio_Gasoline,Passenger,Road,Large Car and Truck,PHEV,biofuels
+Personal_LDV,PHEV_25,SUV,Electricity_Commercial,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_25,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_25,SUV,Gasoline,Passenger,Road,Large Car and Truck,PHEV,fossil liquids
+Personal_LDV,PHEV_50,Compact,Bio_Gasoline,Passenger,Road,Car,PHEV,biofuels
+Personal_LDV,PHEV_50,Compact,Electricity_Commercial,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_50,Compact,Electricity_Residential,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_50,Compact,Gasoline,Passenger,Road,Car,PHEV,fossil liquids
+Personal_LDV,PHEV_50,Midsize,Bio_Gasoline,Passenger,Road,Car,PHEV,biofuels
+Personal_LDV,PHEV_50,Midsize,Electricity_Commercial,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_50,Midsize,Electricity_Residential,Passenger,Road,Car,PHEV,electricity
+Personal_LDV,PHEV_50,Midsize,Gasoline,Passenger,Road,Car,PHEV,fossil liquids
+Personal_LDV,PHEV_50,Pickup,Bio_Gasoline,Passenger,Road,Large Car and Truck,PHEV,biofuels
+Personal_LDV,PHEV_50,Pickup,Electricity_Commercial,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_50,Pickup,Electricity_Residential,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_50,Pickup,Gasoline,Passenger,Road,Large Car and Truck,PHEV,fossil liquids
+Personal_LDV,PHEV_50,SUV,Bio_Gasoline,Passenger,Road,Large Car and Truck,PHEV,biofuels
+Personal_LDV,PHEV_50,SUV,Electricity_Commercial,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_50,SUV,Electricity_Residential,Passenger,Road,Large Car and Truck,PHEV,electricity
+Personal_LDV,PHEV_50,SUV,Gasoline,Passenger,Road,Large Car and Truck,PHEV,fossil liquids
+Rail_Metro_Passenger,Rail_Electric,None,Electricity_Commercial,Passenger,Rail,,Electric,electricity
+Rail_Metro_Passenger,Rail_Electric,None,Other,Passenger,Rail,,Electric,electricity
+Rail_Metro_Passenger,Rail_Liquid,None,Bio_Diesel,Passenger,Rail,,Liquids,biofuels
+Rail_Metro_Passenger,Rail_Liquid,None,Diesel,Passenger,Rail,,Liquids,fossil liquids
+Rail_Metro_Passenger,Rail_Liquid,None,Other,Passenger,Rail,,Liquids,fossil liquids
+Rail_Regional_Passenger,Rail_Electric,None,Electricity_Commercial,Passenger,Rail,,Electric,electricity
+Rail_Regional_Passenger,Rail_Electric,None,Other,Passenger,Rail,,Electric,electricity
+Rail_Regional_Passenger,Rail_Liquid,None,Bio_Diesel,Passenger,Rail,,Liquids,biofuels
+Rail_Regional_Passenger,Rail_Liquid,None,Diesel,Passenger,Rail,,Liquids,fossil liquids
+Rail_Regional_Passenger,Rail_Liquid,None,Other,Passenger,Rail,,Liquids,fossil liquids
+Ship_Passenger,Ship_Liquid,None,Bio_Diesel,Freight,Ship,,Liquids,biofuels
+Ship_Passenger,Ship_Liquid,None,Diesel,Freight,Ship,,Liquids,fossil liquids
+Ship_Passenger,Ship_Liquid,None,Other,Freight,Ship,,Liquids,fossil liquids
+LDV_Fleet,FCEV,Compact,Hydrogen,Passenger,Road,Car,FCEV,hydrogen
+LDV_Fleet,FCEV,Midsize,Hydrogen,Passenger,Road,Car,FCEV,hydrogen
+LDV_Fleet,FCEV,Pickup,Hydrogen,Passenger,Road,Large Car and Truck,FCEV,hydrogen
+LDV_Fleet,FCEV,SUV,Hydrogen,Passenger,Road,Large Car and Truck,FCEV,hydrogen

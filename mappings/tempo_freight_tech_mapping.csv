@@ -1,0 +1,78 @@
+Tempo_Mode,Tempo_Tech,Tempo_Fuel,Sector,Mode,Size.class,Technology,Fuel
+Air_Freight,Air_Liquid,Bio_JetFuel,Freight,Air,,Liquids,biofuels
+Air_Freight,Air_Liquid,JetFuel,Freight,Air,,Liquids,fossil liquids
+Rail_Freight,Rail_HEV_Liquid,Bio_Diesel,Freight,Rail,,Liquids,biofuels
+Rail_Freight,Rail_HEV_Liquid,Diesel,Freight,Rail,,Liquids,fossil liquids
+Rail_Freight,Rail_Liquid,Bio_Diesel,Freight,Rail,,Liquids,biofuels
+Rail_Freight,Rail_Liquid,Diesel,Freight,Rail,,Liquids,fossil liquids
+Ship_Freight,Ship_Liquid,Bio_Diesel,Freight,Ship,,Liquids,biofuels
+Ship_Freight,Ship_Liquid,Diesel,Freight,Ship,,Liquids,fossil liquids
+Ship_Freight,Ship_NG,Natural_Gas,Freight,Ship,,NG,natural gas
+Truck_Heavy,BEV_150,Electricity_Commercial,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_150,Electricity_Depot,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_300,Electricity_Commercial,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_300,Electricity_Depot,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_500,Electricity_Commercial,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_500,Electricity_Corridor,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_500,Electricity_Depot,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,FCEV,Hydrogen,Freight,Road,Heavy truck,FCEV,hydrogen
+Truck_Heavy,HEV_Diesel,Bio_Diesel,Freight,Road,Heavy truck,Liquids,biofuels
+Truck_Heavy,HEV_Diesel,Diesel,Freight,Road,Heavy truck,Liquids,fossil liquids
+Truck_Heavy,ICEV_Diesel,Bio_Diesel,Freight,Road,Heavy truck,Liquids,biofuels
+Truck_Heavy,ICEV_Diesel,Diesel,Freight,Road,Heavy truck,Liquids,fossil liquids
+Truck_Heavy,ICEV_NG,Natural_Gas,Freight,Road,Heavy truck,NG,natural gas
+Truck_Heavy_Vocational,BEV_150,Electricity_Commercial,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy_Vocational,BEV_300,Electricity_Commercial,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy_Vocational,FCEV,Hydrogen,Freight,Road,Heavy truck,FCEV,hydrogen
+Truck_Heavy_Vocational,HEV_Diesel,Diesel,Freight,Road,Heavy truck,Liquids,fossil liquids
+Truck_Heavy_Vocational,ICEV_Diesel,Diesel,Freight,Road,Heavy truck,Liquids,fossil liquids
+Truck_Heavy_Vocational,ICEV_NG,Natural_Gas,Freight,Road,Heavy truck,NG,natural gas
+Truck_Light,BEV_150,Electricity_Commercial,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_150,Electricity_Depot,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_300,Electricity_Commercial,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_300,Electricity_Depot,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_500,Electricity_Commercial,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_500,Electricity_Corridor,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_500,Electricity_Depot,Freight,Road,Light truck,BEV,electricity
+Truck_Light,FCEV,Hydrogen,Freight,Road,Light truck,FCEV,hydrogen
+Truck_Light,HEV_Diesel,Bio_Diesel,Freight,Road,Light truck,Liquids,biofuels
+Truck_Light,HEV_Diesel,Diesel,Freight,Road,Light truck,Liquids,fossil liquids
+Truck_Light,ICEV_Diesel,Bio_Diesel,Freight,Road,Light truck,Liquids,biofuels
+Truck_Light,ICEV_Diesel,Diesel,Freight,Road,Light truck,Liquids,fossil liquids
+Truck_Light,ICEV_NG,Natural_Gas,Freight,Road,Light truck,NG,natural gas
+Truck_Light_Vocational,BEV_150,Electricity_Commercial,Freight,Road,Light truck,BEV,electricity
+Truck_Light_Vocational,BEV_300,Electricity_Commercial,Freight,Road,Light truck,BEV,electricity
+Truck_Light_Vocational,FCEV,Hydrogen,Freight,Road,Light truck,FCEV,hydrogen
+Truck_Light_Vocational,HEV_Diesel,Diesel,Freight,Road,Light truck,Liquids,fossil liquids
+Truck_Light_Vocational,ICEV_Diesel,Diesel,Freight,Road,Light truck,Liquids,fossil liquids
+Truck_Light_Vocational,ICEV_NG,Natural_Gas,Freight,Road,Light truck,NG,natural gas
+Truck_Medium,BEV_150,Electricity_Commercial,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_150,Electricity_Depot,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_300,Electricity_Commercial,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_300,Electricity_Depot,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_500,Electricity_Commercial,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_500,Electricity_Corridor,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_500,Electricity_Depot,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,FCEV,Hydrogen,Freight,Road,Medium truck,FCEV,hydrogen
+Truck_Medium,HEV_Diesel,Bio_Diesel,Freight,Road,Medium truck,Liquids,biofuels
+Truck_Medium,HEV_Diesel,Diesel,Freight,Road,Medium truck,Liquids,fossil liquids
+Truck_Medium,ICEV_Diesel,Bio_Diesel,Freight,Road,Medium truck,Liquids,biofuels
+Truck_Medium,ICEV_Diesel,Diesel,Freight,Road,Medium truck,Liquids,fossil liquids
+Truck_Medium,ICEV_NG,Natural_Gas,Freight,Road,Medium truck,NG,natural gas
+Truck_Medium_Vocational,BEV_150,Electricity_Commercial,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium_Vocational,BEV_300,Electricity_Commercial,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium_Vocational,FCEV,Hydrogen,Freight,Road,Medium truck,FCEV,hydrogen
+Truck_Medium_Vocational,HEV_Diesel,Diesel,Freight,Road,Medium truck,Liquids,fossil liquids
+Truck_Medium_Vocational,ICEV_Diesel,Diesel,Freight,Road,Medium truck,Liquids,fossil liquids
+Truck_Light,BEV_300,Electricity_Corridor,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_150,Electricity_Corridor,Freight,Road,Light truck,BEV,electricity
+Truck_Light,BEV_150,Electricity_Vocational,Freight,Road,Light truck,BEV,electricity
+Truck_Medium,BEV_150,Electricity_Corridor,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_150,Electricity_Vocational,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_300,Electricity_Corridor,Freight,Road,Medium truck,BEV,electricity
+Truck_Medium,BEV_300,Electricity_Vocational,Freight,Road,Medium truck,BEV,electricity
+Truck_Light,BEV_300,Electricity_Vocational,Freight,Road,Light truck,BEV,electricity
+Truck_Heavy,BEV_150,Electricity_Corridor,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_150,Electricity_Vocational,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_300,Electricity_Corridor,Freight,Road,Heavy truck,BEV,electricity
+Truck_Heavy,BEV_300,Electricity_Vocational,Freight,Road,Heavy truck,BEV,electricity
