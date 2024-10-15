@@ -119,15 +119,16 @@ Auto_LDV_mapped <- Auto_LDV %>%
   mutate(Class = case_when(
     Class %in% c("Compact") ~ "Compact Car",
     Class %in% c("Midsize") ~ "Midsize Car",
-    Class %in% c("Midsize SUV") ~ "Large Car and SUV",
+    Class %in% c("Midsize SUV") ~ "Large Car",
     Class %in% c("Pickup") ~ "Large Car",
-    Class %in% c("Small SUV") ~ "Large Car and SUV"))
+    Class %in% c("Small SUV") ~ "Large Car"))
 
-# # check how tempo maps to gcam in vehicle classes
-# tempo_passenger_tech_mapping %>% 
-#   filter(Tempo_Class %in% c("Compact", "Midsize", "Pickup", "SUV")) %>% 
-#   select(Tempo_Class,Size.class) %>% 
-#   distinct()
+# check how tempo maps to gcam in vehicle classes
+tempo_passenger_tech_mapping %>%
+  filter(Sector == 'Passenger',
+         Tempo_Class %in% c("Compact", "Midsize", "Pickup", "SUV")) %>%
+  select(Tempo_Class,Size.class) %>%
+  distinct()
 
 # Add Light Truck & SUV category as as a copy of Large Car 
 Auto_LDV_TruckSUV <- Auto_LDV_mapped %>%
