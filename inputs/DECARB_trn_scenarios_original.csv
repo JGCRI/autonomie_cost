@@ -1,0 +1,89 @@
+# File: DECARB_trn_scenarios.csv
+# Title: Parameter adjustments to define the transportation scenarios
+# Units: various
+# Comments: This is intended as a single control table for scenario differentiation
+# Source: harmonization exercise with TEMPO
+# Column types: ccccccni
+# ----------
+scenario,supplysector,subsector,technology,variable,value,adj_factor,rule_number
+MidTech,trn_freight_road,Heavy truck,FCEV,share.weight,0.167,,
+MidTech,trn_freight_road,Light truck,FCEV,share.weight,0.167,,
+MidTech,trn_freight_road,Medium truck,FCEV,share.weight,0.083,,
+MidTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,from.year,2025,,1
+MidTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,to.value,0,,1
+MidTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,to.year,2075,,1
+MidTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,interpolation.function,linear,,1
+MidTech,trn_pass_road_LDV_4W,Car,Liquids,from.year,2025,,1
+MidTech,trn_pass_road_LDV_4W,Car,Liquids,to.value,0,,1
+MidTech,trn_pass_road_LDV_4W,Car,Liquids,to.year,2075,,1
+MidTech,trn_pass_road_LDV_4W,Car,Liquids,interpolation.function,linear,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,from.year,2025,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,to.value,0,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,to.year,2075,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,interpolation.function,linear,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,from.year,2025,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,to.value,0,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,to.year,2075,,1
+MidTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,interpolation.function,linear,,1
+HiTech,trn_freight_road,Heavy truck,FCEV,share.weight,0.333,,
+HiTech,trn_freight_road,Light truck,FCEV,share.weight,0.333,,
+HiTech,trn_freight_road,Medium truck,FCEV,share.weight,0.167,,
+HiTech,trn_freight_road,Heavy truck,Liquids,from.year,2025,,1
+HiTech,trn_freight_road,Heavy truck,Liquids,to.value,0,,1
+HiTech,trn_freight_road,Heavy truck,Liquids,to.year,2060,,1
+HiTech,trn_freight_road,Heavy truck,Liquids,interpolation.function,linear,,1
+HiTech,trn_freight_road,Heavy truck,Hybrid Liquids,from.year,2025,,1
+HiTech,trn_freight_road,Heavy truck,Hybrid Liquids,to.value,0,,1
+HiTech,trn_freight_road,Heavy truck,Hybrid Liquids,to.year,2060,,1
+HiTech,trn_freight_road,Heavy truck,Hybrid Liquids,interpolation.function,linear,,1
+HiTech,trn_freight_road,Medium truck,Liquids,from.year,2025,,1
+HiTech,trn_freight_road,Medium truck,Liquids,to.value,0,,1
+HiTech,trn_freight_road,Medium truck,Liquids,to.year,2060,,1
+HiTech,trn_freight_road,Medium truck,Liquids,interpolation.function,linear,,1
+HiTech,trn_freight_road,Medium truck,Hybrid Liquids,from.year,2025,,1
+HiTech,trn_freight_road,Medium truck,Hybrid Liquids,to.value,0,,1
+HiTech,trn_freight_road,Medium truck,Hybrid Liquids,to.year,2060,,1
+HiTech,trn_freight_road,Medium truck,Hybrid Liquids,interpolation.function,linear,,1
+HiTech,trn_freight_road,Light truck,Liquids,from.year,2025,,1
+HiTech,trn_freight_road,Light truck,Liquids,to.value,0,,1
+HiTech,trn_freight_road,Light truck,Liquids,to.year,2060,,1
+HiTech,trn_freight_road,Light truck,Liquids,interpolation.function,linear,,1
+HiTech,trn_freight_road,Light truck,Hybrid Liquids,from.year,2025,,1
+HiTech,trn_freight_road,Light truck,Hybrid Liquids,to.value,0,,1
+HiTech,trn_freight_road,Light truck,Hybrid Liquids,to.year,2060,,1
+HiTech,trn_freight_road,Light truck,Hybrid Liquids,interpolation.function,linear,,1
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,from.year,2025,,1
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,to.value,0,,1
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,to.year,2041,,1
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,interpolation.function,linear,,1
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,from.year,2025,,1
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,to.value,0,,1
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,to.year,2041,,1
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,interpolation.function,linear,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,from.year,2025,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,to.value,0,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,to.year,2041,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,interpolation.function,linear,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,from.year,2025,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,to.value,0,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,to.year,2041,,1
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,interpolation.function,linear,,1
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,from.year,2040,,2
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,to.value,0,,2
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,to.year,2100,,2
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,interpolation.function,fixed,,2
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,from.year,2040,,2
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,to.value,0,,2
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,to.year,2100,,2
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,interpolation.function,fixed,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,from.year,2040,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,to.value,0,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,to.year,2100,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,interpolation.function,fixed,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,from.year,2040,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,to.value,0,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,to.year,2100,,2
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,interpolation.function,fixed,,2
+HiTech,trn_freight_road,Heavy truck,BEV,share.weight,1.5,,
+HiTech,trn_freight_road,Light truck,BEV,share.weight,1.5,,
+HiTech,trn_freight_road,Medium truck,BEV,share.weight,1.5,,
