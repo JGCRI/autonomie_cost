@@ -87,523 +87,243 @@ HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,interpolation.function,f
 HiTech,trn_freight_road,Heavy truck,BEV,share.weight,1.5,NA,NA
 HiTech,trn_freight_road,Light truck,BEV,share.weight,1.5,NA,NA
 HiTech,trn_freight_road,Medium truck,BEV,share.weight,1.5,NA,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2005,0.832,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2005,0.944,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2010,0.915,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2010,0.974,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2015,0.979,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2015,0.952,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2020,1.021,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2020,0.964,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2025,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2025,0.942,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2030,0.951,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2030,0.913,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2035,0.981,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2035,0.899,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2040,0.992,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2040,0.894,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2045,1.004,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2045,0.889,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2050,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2050,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2055,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2055,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2060,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2060,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2065,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2065,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2070,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2070,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2075,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2075,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2080,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2080,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2085,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2085,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2090,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2090,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2095,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2095,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2100,1.018,NA
-HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2100,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2005,0.732,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2005,0.893,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2010,0.873,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2010,0.915,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2015,0.96,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2015,0.936,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2020,1.012,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2020,0.954,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2025,1.051,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2025,0.953,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2030,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2030,0.886,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2035,0.932,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2025,0.958,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2025,0.981,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2025,0.985,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2025,0.987,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2025,0.969,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2025,0.959,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2025,0.986,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2025,0.923,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2025,0.971,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2025,0.95,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2025,0.958,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2025,0.982,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2025,0.985,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2025,0.985,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2025,0.972,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2025,0.952,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2025,0.99,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2025,0.917,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2025,0.975,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2025,0.947,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2030,0.857,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2030,0.899,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2030,0.846,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2030,0.881,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2030,0.919,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2030,0.841,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2030,1.005,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2030,0.821,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2030,0.93,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2030,0.879,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2030,0.854,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2030,0.891,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2030,0.845,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2030,0.901,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2030,0.931,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2030,0.838,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2030,1.014,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2030,0.801,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2030,0.946,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2030,0.881,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2035,0.884,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2035,0.892,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2035,0.853,NA
 HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2035,0.848,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2040,0.934,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2040,0.841,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2045,0.937,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2045,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2050,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2050,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2055,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2055,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2060,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2060,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2065,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2065,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2070,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2070,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2075,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2075,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2080,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2080,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2085,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2085,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2090,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2090,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2095,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2095,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2100,0.939,NA
-HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2100,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2005,1.015,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2005,0.777,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2010,1.057,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2010,0.829,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2015,1.108,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2015,0.862,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2020,1.041,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2020,0.881,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2025,0.989,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2025,0.874,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2030,1.02,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2030,0.829,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2035,1.005,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2035,0.78,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2040,1.013,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2040,0.795,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2045,1.022,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2035,0.905,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2035,0.779,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2035,0.968,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2035,0.773,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2035,0.92,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2035,0.827,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2035,0.879,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2035,0.893,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2035,0.856,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2035,0.872,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2035,0.935,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2035,0.778,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2035,0.961,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2035,0.774,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2035,0.948,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2035,0.848,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2040,0.894,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2040,0.888,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2040,0.85,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2040,0.839,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2040,0.913,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2040,0.796,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2040,0.976,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2040,0.786,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2040,0.927,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2040,0.83,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2040,0.89,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2040,0.888,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2040,0.854,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2040,0.855,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2040,0.943,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2040,0.8,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2040,0.97,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2040,0.775,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2040,0.953,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2040,0.846,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2045,0.905,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2045,0.884,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2045,0.847,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2045,0.831,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2045,0.921,NA
 HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2045,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2050,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2050,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2055,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2055,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2060,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2060,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2065,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2065,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2070,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2070,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2075,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2075,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2080,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2080,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2085,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2085,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2090,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2090,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2095,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2095,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2100,1.031,NA
-HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2100,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2005,1.097,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2005,0.683,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2010,1.12,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2010,0.728,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2015,1.136,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2015,0.728,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2020,1.071,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2020,0.82,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2025,1.057,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2025,0.778,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2030,1.115,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2030,0.816,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2035,1.074,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2035,0.772,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2040,1.083,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2040,0.784,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2045,1.092,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2045,0.798,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2050,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2050,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2055,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2055,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2060,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2060,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2065,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2065,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2070,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2070,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2075,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2075,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2080,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2080,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2085,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2085,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2090,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2090,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2095,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2095,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2100,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2100,0.812,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2005,1.048,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2005,0.762,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2010,1.084,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2010,0.777,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2015,1.098,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2015,0.762,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2020,1.033,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2020,0.87,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2025,0.996,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2025,0.835,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2030,1.033,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2030,0.885,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2035,1.021,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2035,0.82,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2040,1.029,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2040,0.826,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2045,1.036,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2045,0.832,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2050,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2050,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2055,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2055,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2060,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2060,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2065,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2065,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2070,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2070,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2075,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2075,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2080,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2080,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2085,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2085,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2090,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2090,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2095,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2095,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2100,1.044,NA
-HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2100,0.839,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2005,0.823,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2005,0.927,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2010,0.903,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2010,0.963,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2015,0.968,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2015,0.941,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2020,1.014,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2020,0.959,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2025,0.946,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2025,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2030,0.948,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2030,0.909,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2035,0.976,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2035,0.9,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2040,0.988,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2040,0.895,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2045,1.002,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2045,0.89,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2050,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2050,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2055,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2055,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2060,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2060,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2065,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2065,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2070,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2070,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2075,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2075,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2080,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2080,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2085,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2085,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2090,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2090,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2095,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2095,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2100,1.017,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2100,0.884,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2005,0.727,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2005,0.879,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2010,0.867,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2010,0.908,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2015,0.954,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2015,0.928,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2020,1.01,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2020,0.944,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2025,1.052,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2025,0.955,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2030,0.937,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2030,0.897,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2035,0.935,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2035,0.876,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2040,0.938,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2040,0.859,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2045,0.941,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2045,0.842,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2050,0.945,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2045,0.984,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2045,0.799,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2045,0.934,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2045,0.833,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2045,0.903,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2045,0.883,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2045,0.852,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2045,0.839,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2045,0.952,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2045,0.822,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2045,0.978,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2045,0.775,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2045,0.957,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2045,0.844,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,input.cost,2050,0.917,NA
+HiTech,trn_pass_road_LDV_4W,Car,BEV,coefficient,2050,0.879,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2050,0.844,NA
+HiTech,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2050,0.823,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2050,0.929,NA
+HiTech,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2050,0.827,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2050,0.992,NA
+HiTech,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2050,0.811,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,input.cost,2050,0.94,NA
+HiTech,trn_pass_road_LDV_4W,Car,NG,coefficient,2050,0.836,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2050,0.916,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2050,0.877,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2050,0.849,NA
 HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2050,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2055,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2055,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2060,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2060,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2065,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2065,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2070,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2070,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2075,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2075,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2080,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2080,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2085,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2085,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2090,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2090,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2095,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2095,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2100,0.945,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2100,0.824,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2005,0.993,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2005,0.764,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2010,1.032,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2010,0.825,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2015,1.081,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2015,0.854,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2020,1.039,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2020,0.88,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2025,1,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2025,0.852,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2030,1.033,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2030,0.841,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2035,1.038,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2035,0.775,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2040,1.047,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2040,0.792,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2045,1.056,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2045,0.811,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2050,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2050,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2055,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2055,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2060,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2060,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2065,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2065,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2070,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2070,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2075,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2075,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2080,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2080,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2085,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2085,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2090,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2090,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2095,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2095,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2100,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2100,0.833,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2005,1.058,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2005,0.63,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2010,1.076,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2010,0.668,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2015,1.101,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2015,0.687,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2020,1.066,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2020,0.795,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2025,1.072,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2025,0.742,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2030,1.125,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2030,0.794,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2035,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2035,0.787,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2040,1.076,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2040,0.782,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2045,1.085,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2045,0.776,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2050,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2050,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2055,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2055,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2060,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2060,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2065,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2065,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2070,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2070,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2075,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2075,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2080,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2080,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2085,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2085,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2090,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2090,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2095,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2095,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2100,1.094,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2100,0.77,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2005,0.977,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2005,0.717,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2010,1.008,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2010,0.757,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2015,1.028,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2015,0.717,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2020,1.02,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2020,0.831,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2025,1.013,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2025,0.852,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2030,1.05,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2030,0.89,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2035,1.053,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2035,0.841,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2040,1.057,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2040,0.843,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2045,1.062,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2045,0.845,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2050,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2050,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2055,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2055,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2060,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2060,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2065,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2065,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2070,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2070,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2075,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2075,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2080,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2080,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2085,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2085,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2090,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2090,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2095,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2095,0.847,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2100,1.067,NA
-HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2100,0.847,NA
-IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2025,0.953,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2050,0.96,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2050,0.841,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2050,0.986,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2050,0.776,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2050,0.961,NA
+HiTech,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2050,0.843,NA
 IRA,trn_pass_road_LDV_4W,Car,BEV,input.cost,2025,1.038,NA
-IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2025,0.979,NA
+IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2025,1.049,NA
 IRA,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2025,1.02,NA
-IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2025,0.977,NA
+IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2025,1.021,NA
 IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2025,1.036,NA
-IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2025,1.033,NA
+IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2025,1.024,NA
 IRA,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2025,1.02,NA
-IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2025,1,NA
+IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2025,0.966,NA
 IRA,trn_pass_road_LDV_4W,Car,NG,input.cost,2025,1.016,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2025,0.958,NA
+IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2025,1,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2025,1.045,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2025,0.962,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2025,1.044,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2025,1.055,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2025,1.009,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2025,1.04,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2025,1.043,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2025,1.058,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2025,0.991,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2025,1.018,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2025,1,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2025,0.945,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2025,1.015,NA
-IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2030,0.949,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2025,1,NA
 IRA,trn_pass_road_LDV_4W,Car,BEV,input.cost,2030,1.021,NA
-IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2030,0.974,NA
+IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2030,1.054,NA
 IRA,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2030,1.007,NA
-IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2030,0.974,NA
+IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2030,1.027,NA
 IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2030,1.077,NA
-IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2030,0.961,NA
+IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2030,1.028,NA
 IRA,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2030,1.024,NA
-IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2030,0.962,NA
+IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2030,1.039,NA
 IRA,trn_pass_road_LDV_4W,Car,NG,input.cost,2030,1.036,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2030,0.964,NA
+IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2030,1.04,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2030,1.047,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2030,0.947,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2030,1.038,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2030,1.051,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2030,1.018,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2030,1.056,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2030,1.094,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2030,1.024,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2030,0.982,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2030,1.031,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2030,0.963,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2030,0.977,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2030,1.035,NA
-IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2035,0.863,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2030,1.039,NA
 IRA,trn_pass_road_LDV_4W,Car,BEV,input.cost,2035,1.079,NA
-IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2035,0.925,NA
+IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2035,1.159,NA
 IRA,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2035,1,NA
-IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2035,0.928,NA
+IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2035,1.081,NA
 IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2035,1.103,NA
-IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2035,0.88,NA
+IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2035,1.079,NA
 IRA,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2035,0.993,NA
-IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2035,0.898,NA
+IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2035,1.134,NA
 IRA,trn_pass_road_LDV_4W,Car,NG,input.cost,2035,1.043,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2035,0.869,NA
+IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2035,1.115,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2035,1.111,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2035,0.896,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2035,1.15,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2035,1.044,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2035,0.993,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2035,1.116,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2035,1.119,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2035,0.97,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2035,1.007,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2035,0.985,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2035,0.913,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2035,1.031,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2035,1.042,NA
-IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2040,0.836,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2035,1.096,NA
 IRA,trn_pass_road_LDV_4W,Car,BEV,input.cost,2040,1.101,NA
-IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2040,0.908,NA
+IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2040,1.197,NA
 IRA,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2040,1,NA
-IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2040,0.876,NA
+IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2040,1.102,NA
 IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2040,1.126,NA
-IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2040,0.838,NA
+IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2040,1.144,NA
 IRA,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2040,1.007,NA
-IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2040,0.863,NA
+IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2040,1.192,NA
 IRA,trn_pass_road_LDV_4W,Car,NG,input.cost,2040,1.055,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2040,0.839,NA
+IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2040,1.159,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2040,1.137,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2040,0.878,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2040,1.192,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2040,1.016,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2040,0.946,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2040,1.139,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2040,1.137,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2040,0.937,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2040,1.057,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2040,0.997,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2040,0.886,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2040,1.067,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2040,1.05,NA
-IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2045,0.807,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2040,1.128,NA
 IRA,trn_pass_road_LDV_4W,Car,BEV,input.cost,2045,1.136,NA
-IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2045,0.888,NA
+IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2045,1.24,NA
 IRA,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2045,1,NA
-IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2045,0.826,NA
+IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2045,1.127,NA
 IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2045,1.149,NA
-IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2045,0.794,NA
+IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2045,1.213,NA
 IRA,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2045,1.019,NA
-IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2045,0.825,NA
+IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2045,1.258,NA
 IRA,trn_pass_road_LDV_4W,Car,NG,input.cost,2045,1.064,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2045,0.807,NA
+IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2045,1.212,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2045,1.174,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2045,0.859,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2045,1.238,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2045,1.005,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2045,0.894,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2045,1.164,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2045,1.154,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2045,0.895,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2045,1.118,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2045,1.006,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2045,0.852,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2045,1.117,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2045,1.056,NA
-IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2050,0.777,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2045,1.174,NA
 IRA,trn_pass_road_LDV_4W,Car,BEV,input.cost,2050,1.176,NA
-IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2050,0.869,NA
+IRA,trn_pass_road_LDV_4W,Car,BEV,coefficient,2050,1.288,NA
 IRA,trn_pass_road_LDV_4W,Car,FCEV,input.cost,2050,1,NA
-IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2050,0.783,NA
+IRA,trn_pass_road_LDV_4W,Car,FCEV,coefficient,2050,1.153,NA
 IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,input.cost,2050,1.172,NA
-IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2050,0.755,NA
+IRA,trn_pass_road_LDV_4W,Car,Hybrid Liquids,coefficient,2050,1.28,NA
 IRA,trn_pass_road_LDV_4W,Car,Liquids,input.cost,2050,1.03,NA
-IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2050,0.792,NA
+IRA,trn_pass_road_LDV_4W,Car,Liquids,coefficient,2050,1.321,NA
 IRA,trn_pass_road_LDV_4W,Car,NG,input.cost,2050,1.073,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2050,0.776,NA
+IRA,trn_pass_road_LDV_4W,Car,NG,coefficient,2050,1.263,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,input.cost,2050,1.217,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2050,0.841,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,BEV,coefficient,2050,1.289,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,input.cost,2050,1,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2050,0.848,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,FCEV,coefficient,2050,1.189,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,input.cost,2050,1.171,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2050,0.856,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Hybrid Liquids,coefficient,2050,1.179,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,input.cost,2050,1.015,NA
-IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2050,0.82,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,Liquids,coefficient,2050,1.168,NA
 IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,input.cost,2050,1.061,NA
+IRA,trn_pass_road_LDV_4W,Large Car and Truck,NG,coefficient,2050,1.22,NA

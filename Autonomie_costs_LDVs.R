@@ -26,7 +26,6 @@ library(gcamdata)
 # we will use these values for GCAM as well 
 
 # Read in mapping file ----
-# tempo_freight_tech_mapping <- read_csv("./mappings/tempo_freight_tech_mapping.csv")
 tempo_passenger_tech_mapping <- read_csv("./mappings/tempo_passenger_tech_mapping.csv")
 
 df <- as_tibble(read.csv(
@@ -195,7 +194,56 @@ conv_Wh_MJ = 0.0036
 # mpgge - mile per gallon gas equivalent
 conv_gge_MJ = 121.3 # one gallon of gasoline contains approximately 121.3 MJ of energy.
 
-tempo_mid<-as_tibble(Auto_LDV_mapped_full) %>% 
+
+# read in tempo's atb table which is derived from Autonomie and is the direct input to tempo
+# however, the atb table only starts from 2023, so we will do an ad-hoc of autonomie table and atb table
+# to include more historical years and also to match closer to the atb table (closer to tempo inputs)
+tempo_table <- as_tibble(read.csv(
+  "./inputs/atb_vehicles.csv",
+  skip = 0, blank.lines.skip = TRUE, check.names = F))
+
+tempo_table %>% 
+  filter(vehicle_weight_category == 'Light Duty') %>% 
+  select(scenario,year, vehicle_class,vehicle_detail,metric,value) %>% 
+  rename(size.class = vehicle_class) %>% 
+  mutate(size.class = case_when(
+    size.class %in% c("Compact") ~ "Compact Car",
+    size.class %in% c("Midsize") ~ "Midsize Car",
+    size.class %in% c("Midsize SUV") ~ "Large Car",
+    size.class %in% c("Pickup") ~ "Large Car",
+    size.class %in% c("Small SUV") ~ "Large Car")) %>% 
+  filter(vehicle_detail %in% c('Battery Electric Vehicle (200-mile range)',
+                               'Battery Electric Vehicle (300-mile range)',
+                               'Battery Electric Vehicle (400-mile range)',
+                               'Hydrogen Fuel Cell Electric Vehicle',
+                               'Gasoline Power Split Hybrid Electric Vehicle',
+                               'Gasoline ICE Vehicle (spark ignition with turbo)',
+                               'Compressed Natural Gas Conventional Vehicle')) %>% 
+  rename(technology = vehicle_detail) %>% 
+  mutate(technology = case_when(
+    grepl('Battery Electric Vehicle',technology) ~ 'BEV',
+    technology == 'Hydrogen Fuel Cell Electric Vehicle' ~ 'FCEV',
+    technology == 'Gasoline Power Split Hybrid Electric Vehicle' ~ 'Hybrid Liquids',
+    technology == 'Gasoline ICE Vehicle (spark ignition with turbo)' ~ 'Liquids',
+    technology == 'Compressed Natural Gas Conventional Vehicle' ~ 'NG'
+  )) %>% 
+  filter(metric %in% c('Modeled Vehicle Price (2022$)','Fuel Economy (mi/gge)')) %>% 
+  rename(variable = metric) %>% 
+  mutate(variable = case_when(
+    variable == 'Modeled Vehicle Price (2022$)' ~ 'Capital costs (purchase)',
+    variable == 'Fuel Economy (mi/gge)' ~ 'intensity'
+  )) %>% 
+  group_by(scenario,year,size.class,technology,variable) %>% 
+  summarise(value = mean(value)) %>% 
+  ungroup() %>% 
+  spread(variable, value) %>% 
+  # convert 2022$ to 2005$; convert mi/gge to MJ/vkm
+  mutate(`Capital costs (purchase)` = `Capital costs (purchase)`*gdp_deflator(2005,2022),
+         intensity = 1/intensity * conv_gge_MJ / conv_mile_km) %>% 
+  gather(variable, value, -scenario, -year, -size.class, -technology)->tempo_table_mapped
+
+# derive values based on Autonomie table
+tempo_mid_autonomie<-as_tibble(Auto_LDV_mapped_full) %>% 
   select(sector, year, size.class = Class, technology = gcam.tech, 
          `Capital costs (purchase)` = MSRP, intensity_mpgge = `Real-world_FE_mpgge`, 
          intensity_Wh_per_mi = `Real-world_elec_cons_Wh/mi`) %>% 
@@ -217,13 +265,74 @@ tempo_mid<-as_tibble(Auto_LDV_mapped_full) %>%
   group_by(region, sector, mode, size.class, technology, fuel, variable) %>% 
   complete(year = HIST_FUT_YEARS) %>%
   mutate(value = approx_fun(year, value, rule = 2)) %>% 
-  ungroup() %>%
-  filter(year %in% HIST_FUT_YEARS) %>% 
-  mutate(unit = if_else(variable == 'intensity', 'MJ/vkm', '2005$/veh')) %>% 
-  select(year, UCD_region = region, UCD_sector = sector, 
-         mode, size.class, UCD_technology = technology, UCD_fuel = fuel, 
-         variable, value, unit) 
-update_table<- tempo_mid %>% 
+  ungroup() 
+
+# compare autonomie derived values to tempo atb table
+tempo_mid_autonomie %>% 
+  left_join(tempo_table_mapped %>% 
+              filter(scenario == 'Mid') %>% 
+              select(-scenario), by = c('size.class','technology','variable','year')) %>% 
+  filter(!is.na(value.y)) %>% 
+  rename(Autonomie = value.x,
+         Tempo = value.y) %>% 
+  gather(source, value, -region, -sector, -mode, -size.class, -technology, -fuel,
+         -variable, -year)->compare_tempo_autonomie
+
+ggplot(compare_tempo_autonomie, aes(x = year, y = value, linetype = source, color = size.class))+
+  geom_line()+
+  facet_grid(rows = vars(variable), cols = vars(technology), scales = 'free_y')+
+  theme_bw()
+ggsave('figs/compare_tempo_autonomie_mid.png', width = 10, height = 6, units = 'in')
+  
+# we will use tempo's value for periods available (2023 and forward) and
+# adjust autonomie values based on the comparison for other periods (2005-2023)
+# both have values in 2023, which is the connecting year of the two sources.
+# so we will calculate the adjustment ratio based on values in 2023
+compare_tempo_autonomie %>% 
+  filter(year == 2023) %>% 
+  spread(source, value) %>% 
+  mutate(adj.ratio = Tempo/Autonomie) %>% 
+  select(-year, -Autonomie, -Tempo)->autonomie_adj_multiplier
+
+autonomie_adj_multiplier %>% 
+  filter(size.class == 'Large Car') %>% 
+  mutate(size.class = 'Light Truck and SUV') %>% 
+  bind_rows(autonomie_adj_multiplier)->autonomie_adj_multiplier
+
+compare_tempo_autonomie %>% 
+  filter(size.class == 'Large Car') %>% 
+  mutate(size.class = 'Light Truck and SUV') %>% 
+  bind_rows(compare_tempo_autonomie)->compare_tempo_autonomie
+
+tempo_mid<-tempo_mid_autonomie %>% 
+  filter(year<=2023,
+         variable != 'Capital costs (other)') %>% 
+  left_join_error_no_match(autonomie_adj_multiplier, 
+                           by = c('region','sector','mode','size.class',
+                                  'technology','fuel','variable')) %>% 
+  mutate(value = value*adj.ratio) %>% 
+  select(-adj.ratio) %>% 
+  bind_rows(compare_tempo_autonomie %>% 
+              filter(source == 'Tempo', year != 2023) %>% 
+              select(-source)) %>% 
+  filter(year %in% HIST_FUT_YEARS) %>%
+  mutate(unit = if_else(variable == 'intensity', 'MJ/vkm', '2005$/veh')) %>%
+  select(year, UCD_region = region, UCD_sector = sector,
+         mode, size.class, UCD_technology = technology, UCD_fuel = fuel,
+         variable, value, unit)
+
+ggplot(tempo_mid %>% filter(size.class != 'Light Truck and SUV'), 
+       aes(x = year, y = value, color = size.class))+
+  geom_line()+
+  facet_grid(rows = vars(variable), cols = vars(UCD_technology), scales = 'free_y')+
+  theme_bw()
+ggsave('figs/tempo_extended_mid.png', width = 12, height = 6, units = 'in')
+
+update_table<- tempo_mid %>%
+  bind_rows(tempo_mid %>% 
+              filter(variable == 'Capital costs (purchase)') %>% 
+              mutate(value = value*0.09,
+                     variable = 'Capital costs (other)')) %>% 
   spread(year, value)
 
 # read in the original file and replace only the lines with updated values
@@ -270,8 +379,7 @@ Auto_LDV<- Auto_LDV0 %>%
   filter(Progress == "High", #autonomie "high" corresponds to tempo "advanced"
          Powertrain %in% tempo_autonm_gcam_tech_mapping$autonomie.tech, 
          Performance == "Base") %>%
-  # convert to 2005$ using gdp_deflator(2005, 2021) in latest version of gcamdata (up to 2021, although the values are in 2023$)
-  mutate(MSRP = MSRP * 0.7374201) 
+  mutate(MSRP = MSRP * gdp_deflator(2005,2023)) 
 
 # map autonomie to tempo and gcam
 Auto_LDV_mapped <- Auto_LDV %>% 
@@ -294,7 +402,7 @@ Auto_LDV_mapped_full <- Auto_LDV_mapped %>%
   bind_rows(Auto_LDV_TruckSUV) %>%
   arrange(Class)
 
-tempo_adv<-as_tibble(Auto_LDV_mapped_full) %>% 
+tempo_adv_autonomie<-as_tibble(Auto_LDV_mapped_full) %>% 
   select(sector, year, size.class = Class, technology = gcam.tech, 
          `Capital costs (purchase)` = MSRP, intensity_mpgge = `Real-world_FE_mpgge`, 
          intensity_Wh_per_mi = `Real-world_elec_cons_Wh/mi`) %>% 
@@ -316,22 +424,18 @@ tempo_adv<-as_tibble(Auto_LDV_mapped_full) %>%
   group_by(region, sector, mode, size.class, technology, fuel, variable) %>% 
   complete(year = HIST_FUT_YEARS) %>%
   mutate(value = approx_fun(year, value, rule = 2)) %>% 
-  ungroup() %>%
-  filter(year %in% HIST_FUT_YEARS) %>% 
-  mutate(unit = if_else(variable == 'intensity', 'MJ/vkm', '2005$/veh')) %>% 
-  select(year, UCD_region = region, UCD_sector = sector, 
-         mode, size.class, UCD_technology = technology, UCD_fuel = fuel, 
-         variable, value, unit) 
+  ungroup()
 
-tempo_adv %>% 
+tempo_adv_autonomie %>% 
   rename(adv = value) %>% 
-  left_join_error_no_match(tempo_mid %>% 
+  left_join_error_no_match(tempo_mid_autonomie %>% 
               rename(mid = value), 
-            by = c('year','UCD_region','UCD_sector','mode',
-                   'size.class','UCD_technology','UCD_fuel',
-                   'variable','unit')) %>% 
-  left_join_error_no_match(gcam_size_class_mapping, by = c("UCD_region", "mode", "size.class")) %>% 
-  select(subsector = rev_size.class, technology = UCD_technology, variable, value = year, mid, adv) %>% 
+            by = c('year','region','sector','mode',
+                   'size.class','technology','fuel',
+                   'variable')) %>%
+  left_join_error_no_match(gcam_size_class_mapping, 
+                           by = c("region" = "UCD_region", "mode", "size.class")) %>% 
+  select(subsector = rev_size.class, technology, variable, value = year, mid, adv) %>% 
   mutate(value = as.character(value),
          scenario = 'HiTech',
          supplysector = 'trn_pass_road_LDV_4W') %>% 
@@ -343,58 +447,50 @@ tempo_adv %>%
          rule_number = NA_integer_) %>% 
   filter(variable %in% c('intensity','Capital costs (purchase)')) %>% 
   mutate(variable = if_else(variable == 'intensity', 'coefficient','input.cost')) %>% 
-  select(-mid.avg, -adv.avg)->update_table_p1
+  select(-mid.avg, -adv.avg)->adj_table_autonomie
 
-# ---- PART 3 Calculate adjust factors for 'Stated Policies' scenario ----
-# 'Stated Policies' in Tempo is based on ATB Conservative with Rates of improvement based on AEO
-# that is, Autonomie base year vehicle values, then applies rates of improvement 
-# (in both cost and efficiency) from the AEO.
-
-# read in the original file and replace only the lines with updated values
-atb_veh0 <- as_tibble(read.csv(
-  "./inputs/atb_vehicles.csv",
-  skip = 0, blank.lines.skip = TRUE, check.names = F)) 
-
-atb_veh <- atb_veh0 %>% 
-  filter(scenario %in% c('Mid','Conservative'),
-         vehicle_weight_category == "Light Duty",
-         metric %in% c("Modeled Vehicle Price (2022$)", "Fuel Economy (mi/gge)")) %>% 
-  mutate(vehicle_class = case_when(
-    vehicle_class %in% c("Compact") ~ "Compact Car",
-    vehicle_class %in% c("Midsize") ~ "Midsize Car",
-    vehicle_class %in% c("Midsize SUV") ~ "Large Car",
-    vehicle_class %in% c("Pickup") ~ "Large Car",
-    vehicle_class %in% c("Small SUV") ~ "Large Car"),
-    gcam.tech = if_else(
-      grepl('Battery Electric Vehicle', vehicle_detail), 'BEV',
-      if_else(
-        vehicle_detail == 'Compressed Natural Gas Conventional Vehicle', 'NG',
-        if_else(
-          vehicle_detail == 'Gasoline ICE Vehicle (spark ignition with turbo)', 'Liquids',
-          if_else(
-            vehicle_detail == 'Hydrogen Fuel Cell Electric Vehicle', 'FCEV',
-            if_else(
-              vehicle_detail == 'Gasoline Power Split Hybrid Electric Vehicle', 'Hybrid Liquids',
-              NA_character_)))))) %>% 
-  filter(vehicle_detail != 'Battery Electric Vehicle (150-mile range)',
-         !is.na(gcam.tech)) %>% 
-  mutate(region = 'USA', mode = 'LDV_4W') %>% 
-  left_join_error_no_match(gcam_size_class_mapping, by = c("region" = "UCD_region", "mode", 'vehicle_class' = "size.class")) 
-
-update_table_p2<-atb_veh %>% 
-  group_by(year, scenario, rev_size.class, gcam.tech, metric) %>% 
+#adj factor based on tempo atb table for hi-tech and stated policy scenarios
+tempo_table_mapped %>% 
+  left_join_error_no_match(gcam_size_class_mapping %>% 
+                             filter(UCD_region == 'USA',
+                                    mode == 'LDV_4W'), 
+                           by = c("size.class")) %>% 
+  select(scenario, year, subsector = rev_size.class, technology, variable, value) %>% 
+  mutate(supplysector = 'trn_pass_road_LDV_4W') %>% 
+  group_by(scenario, year, supplysector, subsector, technology, variable) %>% 
   summarise(value = mean(value)) %>% 
   ungroup() %>% 
-  spread(scenario, value) %>% 
-  mutate(adj_factor = round(Conservative/Mid,3)) %>% 
+  spread(scenario,value) %>% 
+  mutate(adj_factor_hi = round(Advanced/Mid,3),
+         adj_factor_sp = round(Conservative/Mid,3)) %>% 
+  select(-Mid, -Conservative, -Advanced) %>% 
+  mutate(variable = if_else(variable == 'intensity', 'coefficient','input.cost'))->adj_table_tempo
+
+adj_table_autonomie %>% 
+  mutate(year = as.integer(value)) %>% 
+  inner_join(adj_table_tempo, 
+             by = c('supplysector','year','subsector','technology','variable')) %>% 
+  select(subsector,technology,year,variable,Autonomie = adj_factor, Tempo = adj_factor_hi) %>% 
+  gather(source, value, -subsector, -technology, -year, -variable)->compare_adj_factor 
+
+
+ggplot(compare_adj_factor, 
+       aes(x = year, y = value, linetype = source, color = subsector))+
+  geom_line()+
+  facet_grid(rows = vars(variable), cols = vars(technology))+
+  theme_bw()
+ggsave('figs/compare_adj_factor_hi.png', width = 10, height = 6, units = 'in')
+
+# we will just use the tempo table to calculate the adjustment factors in the future periods
+adj_table_tempo %>% 
+  rename(IRA = adj_factor_sp,
+         HiTech = adj_factor_hi) %>% 
+  gather(scenario, adj_factor, -year, -supplysector, -subsector, -technology, -variable) %>% 
   filter(year != 2023) %>% 
-  mutate(variable = if_else(metric == 'Fuel Economy (mi/gge)','coefficient','input.cost'),
-         scenario = 'IRA',
-         supplysector = 'trn_pass_road_LDV_4W',
-         rule_number = NA_integer_) %>% 
-  select(scenario, supplysector, subsector = rev_size.class, technology = gcam.tech, 
+  mutate(rule_number = NA_integer_) %>% 
+  select(scenario, supplysector, subsector, technology, 
          variable, value = year, adj_factor, rule_number) %>% 
-  mutate(value = as.character(value))
+  mutate(value = as.character(value))->update_table
 
 # read in the original file and add the updated table
 original_table <- as_tibble(read.csv(
@@ -403,8 +499,7 @@ original_table <- as_tibble(read.csv(
 
 
 final_table <-original_table %>%
-  bind_rows(update_table_p1,
-            update_table_p2)
+  bind_rows(update_table)
 
 # Write to CSV, such that the file can be copied directly into gcamdata, which requires the following header/metadata info.
 cat("# File: DECARB_trn_scenarios.csv",
